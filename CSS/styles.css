@@ -1,0 +1,48 @@
+/* Heading bar CSS Start */
+#tabs {
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0px 10px 0px 400px;
+}
+a:link {
+  text-decoration: none;
+}
+#tab1:hover,
+#tab2:hover,
+#tab3:hover,
+#tab4:hover,
+#tab5:hover,
+#tab6:hover,
+#tab7:hover {
+  border-radius: 100px;
+  background-color: white;
+  padding: 20px, 30px, 23px, 30px;
+  animation-name: color;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes color {
+  100% {
+    color: #000000;
+  }
+}
+li {
+  float: left;
+}
+li a {
+  display: inline;
+  color: #f0eff4;
+  text-align: right;
+  padding: 0px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/* End of HeadingBar CSS */
+h1 {
+  color: aqua;
+}
+body {
+  background-color: #9e829c;
+}
