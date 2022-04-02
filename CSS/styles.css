@@ -1,4 +1,7 @@
 /* Heading bar CSS Start */
+#NavBar{
+  background-color: #f0eff4;
+}
 #tabs {
   list-style-type: none;
   position: fixed;
