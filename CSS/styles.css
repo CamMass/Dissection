@@ -1,12 +1,31 @@
-/* Heading bar CSS Start */
 header{
   background-color: #f0eff4;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 50%;
+}
+/* Heading bar CSS Start */
+#Title{
+  /* text-align: center; */
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  color: #000000;
+  font-family: Impact,
+  Haettenschweiler,
+  "Arial Narrow Bold",
+  sans-serif;
 }
 #tabs {
+  list-style-type: none; 
+  position: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+#NavList{
   list-style-type: none;
-  position: fixed;
-  margin: 0;
-  padding: 0px 10px 0px 400px;
 }
 a:link {
   text-decoration: none;
@@ -18,16 +37,15 @@ a:link {
 #tab5:hover,
 #tab6:hover,
 #tab7:hover {
-  border-radius: 100px;
-  background-color: white;
-  padding: 20px, 30px, 23px, 30px;
+  background-color: black;
   animation-name: color;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  
 }
 @keyframes color {
   100% {
-    color: #000000;
+    color: #f0eff4;
   }
 }
 li {
@@ -35,26 +53,30 @@ li {
 }
 li a {
   display: inline;
-  color: #f0eff4;
-  text-align: right;
-  padding: 0px;
+  color: #000000;
+  /* text-align: center; */
   margin-left: 50px;
   font-weight: 500;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 /* End of HeadingBar CSS */
-h1 {
+main h1 {
   color: aqua;
 }
 /* Background */
 #back {
-  position: fixed;
+  position:fixed;
   padding: 0;
   margin: 0;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#576ca8, #274690,#1b264f,#302b27);
+  background: linear-gradient(#f0eff4,#576ca8, #274690,#1b264f,#302b27);
   z-index: -1;
+}
+body{
+  margin: 0;
+  padding: 0;
+  
 }
