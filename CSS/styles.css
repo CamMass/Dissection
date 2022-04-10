@@ -1,6 +1,7 @@
 /* Heading bar CSS Start */
 header{
   background-color: #f0eff4;
+  display: block;
   position: fixed;
   width: 100%;
   text-align: center;
@@ -50,6 +51,7 @@ a:link {
 #tab6:hover,
 #tab7:hover {
   background-color: black;
+  background-size: 5000px 1000px;
   animation-name: color;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -72,9 +74,14 @@ li a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 /* End of HeadingBar CSS */
+/* Start 'main' CSS */
+main {
+  display: block;
+}
 main h1 {
   color: aqua;
 }
+/* End of 'main' CSS */
 /* Background */
 #back {
   position:fixed;
