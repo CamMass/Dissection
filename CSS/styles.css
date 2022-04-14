@@ -85,9 +85,18 @@ li a {
 }
 main {
   display: block;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-#sectHead {
+
+#sectHead h1 {
   color: aqua;
+  font-family: Impact,
+  Haettenschweiler,
+  "Arial Narrow Bold",
+  sans-serif;
+  letter-spacing: 1px;
+  
 }
 /* End of 'main' CSS */
 /* Background */
