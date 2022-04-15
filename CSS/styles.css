@@ -1,7 +1,4 @@
 /* Heading bar CSS Start */
-html {
-  scroll-behavior: smooth;
-}
 #navBox{
   background-color: #f0eff4;
   position: fixed;
@@ -9,7 +6,7 @@ html {
   height: 130px;
   content: none;
   opacity: 50%;
-  margin-top: -50px;
+  margin-top: -10px;
   
 }
 header{
@@ -85,20 +82,23 @@ li a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 #navElement{
-  opacity: unset;
+  margin-top: 55px;
 }
 /* End of HeadingBar CSS */
 /* Start 'main' CSS */
-#Space {
+/* #Space {
   font-size: 75px;
   visibility: hidden;
-}
+} */
 main {
   display: block;
   padding-left: 50px;
   padding-right: 50px;
 }
-
+#sectHead {
+  padding-top: 130px;
+  display: block;
+}
 #sectHead h1 {
   color: black;
   font-family: Impact,
