@@ -1,4 +1,7 @@
 /* Heading bar CSS Start */
+html {
+  scroll-behavior: smooth;
+}
 #navBox{
   background-color: #f0eff4;
   position: fixed;
