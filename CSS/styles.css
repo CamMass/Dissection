@@ -65,7 +65,7 @@ a:link {
   background-color: #f0eff4;
   background-size: 5000px 1000px;
   animation-name: color;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   
 }
