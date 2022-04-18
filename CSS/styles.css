@@ -125,6 +125,7 @@ main {
   padding: 10px 10px 10px 10px;
   margin-bottom: 50px;
   border-radius: 20px;
+  box-shadow: 8px 8px 10px grey, 10px 10px 10px black;
 }
 /* End of 'main' CSS */
 /* Background */
