@@ -75,30 +75,7 @@ a:link {
     border-radius: 15px;
   }
 }
-div.gallery {
-  border: solid #ccc;
-  border-width: 0;
-  position: relative;
-  width: 25%;
-  /* padding-top: 66.66%; 3:2 Aspect Ratio */
-  margin: 20px;
-  float: left;
-}
-div.gallery:hover{
-  box-shadow: 3px 3px #000000;
-
-}
-div.gallery img {
-  /* width: 25%; */
-  /* height: auto; */
-}
-* {
-  box-sizing: border-box;
-}
-.responsive{
-  /* float: left; */
-  width: 24.99999%;
-}
+/* Photo Journal CSS */
 li {
   float: left;
 
