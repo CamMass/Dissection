@@ -7,13 +7,14 @@
   content: none;
   opacity: 70%;
   margin-top: -10px;
-  
+  z-index: 1;
 }
 header{
   position: fixed;
   width: 100%;
   text-align: center;
   margin-top: -50px;
+  z-index: 1;
 }
 #Title{
   width: 100%;
@@ -81,13 +82,19 @@ a:link {
   width: 100%;
   padding: 10px 10px 10px 10px;
 }
+.gallery img{
+  position: relative;
+}
+.gallery img:hover{
+  box-shadow: 0 0 50px black;
+}
 .center{
   margin-left: auto;
   margin-right: auto;
 }
 li {
   float: left;
-
+  
   
 }
 li a {
@@ -138,6 +145,12 @@ main {
   box-shadow: 8px 8px 10px grey, 10px 10px 10px black;
 }
 /* End of 'main' CSS */
+/* Picture resizing for Intro CSS */
+#resizeME{
+  position: relative;
+  float: left;
+  padding: 0 20px 10px 10px;
+}
 /* Background */
 body {
   margin-top: 10px;
