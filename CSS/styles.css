@@ -79,13 +79,12 @@ a:link {
 /* Photo Journal CSS */
 .resposive {
   position: relative;
-  width: 100%;
   padding: 10px 10px 10px 10px;
 }
-.gallery img{
+.gallery{
   position: relative;
 }
-.gallery img:hover{
+.gallery:hover{
   box-shadow: 0 0 50px black;
 }
 .center{
@@ -146,10 +145,14 @@ main {
 }
 /* End of 'main' CSS */
 /* Picture resizing for Intro CSS */
-#resizeME{
+.resizeME{
   position: relative;
-  float: left;
+  float:right;
+  width: 25%;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
   padding: 0 20px 10px 10px;
+  border-radius: 50px;
+
 }
 /* Background */
 body {
