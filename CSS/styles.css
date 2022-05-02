@@ -31,7 +31,7 @@ header{
   "Arial Narrow Bold",
   sans-serif;
 }
-hr{
+.HRs{
   width: 75%;
   height: 10px;
   background-color: #f0eff4;
@@ -79,7 +79,7 @@ a:link {
 /* Photo Journal CSS */
 .resposive {
   position: relative;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0 10px;
 }
 .gallery{
   position: relative;
@@ -88,8 +88,9 @@ a:link {
   box-shadow: 0 0 50px black;
 }
 .center{
-  margin-left: auto;
-  margin-right: auto;
+  word-wrap: break-word;
+  table-layout: fixed;
+  width: 100%;
 }
 li {
   float: left;
@@ -108,14 +109,10 @@ li a {
 }
 /* End of HeadingBar CSS */
 /* Start 'main' CSS */
-/* #Space {
-  font-size: 75px;
-  visibility: hidden;
-} */
 main {
   display: block;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-left: 80px;
+  margin-right: 100px;
 }
 #sectHead {
   padding-top: 130px;
@@ -132,27 +129,46 @@ main {
   text-decoration-thickness: 10px;
   text-align: center;
 }
-#sectHead p{
-  font-family: "Lucida Console", "Courier New", monospace;
-}
 .boxSpace{
   background-color: #f0eff4;
+  display: inline-block;
   height:fit-content;
   padding: 10px 10px 10px 10px;
   margin-bottom: 50px;
   border-radius: 20px;
   box-shadow: 8px 8px 10px grey, 10px 10px 10px black;
+  width: 100%;
+}
+.vidFit{
+  width: 100% !important;
+  height: auto !important;
+}
+.subBlock{
+  display:block;
 }
 /* End of 'main' CSS */
-/* Picture resizing for Intro CSS */
+/* Picture resizing CSS */
 .resizeME{
-  position: relative;
+  width: 100%;
+  height: auto;
+  /* padding-top: 100%; 1:1 Aspect Ratio   */
+}
+.resizeMEright{
+  position:relative;
   float:right;
   width: 25%;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
   padding: 0 20px 10px 10px;
   border-radius: 50px;
 
+}
+.resizeMEleft{
+  position:relative;
+  float:left;
+  width: 25%;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  padding: 0 20px 10px 10px;
+  border-radius: 50px;
 }
 /* Background */
 body {
@@ -161,8 +177,7 @@ body {
   height: 100%;
   background: linear-gradient(180deg,#576ca8 0%, #274690 25%,#1b264f 75%,#302b27 100%);
 }
-/* body{
-  margin: 0;
-  padding: 0;
-  
-} */
+/* *********Spacing Debugger********** */
+.debugger{
+  border: 6px solid lightgreen;
+}
